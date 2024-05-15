@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -70,7 +69,7 @@ function App() {
     <>
       <div className="contain font-DM bg-[url(assets/hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
         <div className="img">
-          <img src="logo.svg" alt=""  />
+          <img src="assets/logo.svg" alt=""  />
         </div>
         <div className="boxes w-[90%] p-10 flex flex-col lg:flex-row  gap-4">
           <div className="box1 p-7  bg-[#212936cc] text-[#6c727f] rounded-3xl w-full   flex flex-col gap-4">
@@ -85,7 +84,7 @@ function App() {
                   </select>
                   </li> */}
 
-                {fromlang=="es" ? <li onClick={handlelang} className='flex items-center justify-center bg-[#4D5562] text-white p-2 rounded-lg'>Spanish<img src="Expand_down.svg" alt="" /></li>:<li  onClick={handlelang} className='flex p-2 rounded-lg items-center justify-center'>Spanish <img src="Expand_down.svg" alt="" /></li>}
+                {fromlang=="es" ? <li onClick={handlelang} className='flex items-center justify-center bg-[#4D5562] text-white p-2 rounded-lg'>Spanish<img src="Expand_down.svg" alt="" /></li>:<li  onClick={handlelang} className='flex p-2 rounded-lg items-center justify-center'>Spanish <img src="assets/Expand_down.svg" alt="" /></li>}
                   
               </ul>
             </div>
@@ -99,8 +98,8 @@ function App() {
 
             <div className="footer flex w-full justify-between ">
               <div className="others mt-11">
-              <button onClick={()=>utterText(fromText,fromlang)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="sound_max_fill.svg" alt="" /></button>
-              <button onClick={()=>copyContent(fromText)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="Copy.svg" alt="" /></button>
+              <button onClick={()=>utterText(fromText,fromlang)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="assets/sound_max_fill.svg" alt="" /></button>
+              <button onClick={()=>copyContent(fromText)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="assets/Copy.svg" alt="" /></button>
               </div>
 
               <div className="translate self-end">
@@ -125,11 +124,11 @@ function App() {
                   </select>
                   </li> */}
 
-                {tolang==="es" ? <li onClick={handlelang2} className='flex items-center justify-center bg-[#4D5562] text-white p-2 rounded-lg'>Spanish<img src="Expand_down.svg" alt="" /></li>:<li  onClick={handlelang2} className='flex p-2 rounded-lg items-center justify-center'>Spanish <img src="Expand_down.svg" alt="" /></li>}
+                {tolang==="es" ? <li onClick={handlelang2} className='flex items-center justify-center bg-[#4D5562] text-white p-2 rounded-lg'>Spanish<img src="assets/Expand_down.svg" alt="" /></li>:<li  onClick={handlelang2} className='flex p-2 rounded-lg items-center justify-center'>Spanish <img src="assets/Expand_down.svg" alt="" /></li>}
 
 
               </ul>
-              <button onClick={handleSwitch} className='border-2  rounded-xl p-1 px-1 border-[#4D5562]'><img src="Horizontal_top_left_main.svg" alt=""  /></button>
+              <button onClick={handleSwitch} className='border-2  rounded-xl p-1 px-1 border-[#4D5562]'><img src="assets/Horizontal_top_left_main.svg" alt=""  /></button>
             </div>
             <hr className='border-[#4D5562]'/>
 
@@ -141,8 +140,8 @@ function App() {
 
             <div className="footer flex w-full justify-between ">
               <div className="others mt-11">
-              <button onClick={()=>utterText(to,tolang)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="sound_max_fill.svg" alt="" /></button>
-              <button onClick={()=>copyContent(to)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="Copy.svg" alt="" /></button>
+              <button onClick={()=>utterText(to,tolang)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="assets/sound_max_fill.svg" alt="" /></button>
+              <button onClick={()=>copyContent(to)} className='p-2 mr-4 border-2 rounded-lg border-[#4D5562]'><img src="assets/Copy.svg" alt="" /></button>
               </div>
 
 
