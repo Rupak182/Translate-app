@@ -68,7 +68,7 @@ function App() {
 
   return (
     <>
-      <div className="contain font-DM bg-[url(/hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
+      <div className="contain font-DM bg-[url(/assets/hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
         <div className="img">
           <img src="logo.svg" alt="" srcset="" />
         </div>
