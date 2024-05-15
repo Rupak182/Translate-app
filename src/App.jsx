@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -67,7 +66,7 @@ function App() {
 
   return (
     <>
-      <div className="contain font-DM bg-[url(assets/hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
+      <div className="contain font-DM bg-[url(hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
         <div className="img">
           <img src="assets/logo.svg" alt=""  />
         </div>
@@ -104,7 +103,7 @@ function App() {
 
               <div className="translate self-end">
                 <div className="char text-sm text-right">{fromText.length}/500</div>
-                <button type='submit' onClick={handleSubmit} className='bg-[#3662E3] p-3 px-5 rounded-lg border mt-2 border-[#7CA9F3] '><span className='flex gap-2 text-white'><img src="Sort_alfa.svg" alt="" />Translate</span></button>
+                <button type='submit' onClick={handleSubmit} className='bg-[#3662E3] p-3 px-5 rounded-lg border mt-2 border-[#7CA9F3] '><span className='flex gap-2 text-white'><img src="assets/Sort_alfa.svg" alt="" />Translate</span></button>
               </div>
          
             </div>
