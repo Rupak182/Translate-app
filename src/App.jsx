@@ -68,9 +68,9 @@ function App() {
 
   return (
     <>
-      <div className="contain font-DM bg-[url(/assets/hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
+      <div className="contain font-DM bg-[url(src/hero_img.jpg)] bg-no-repeat bg-cover w-full min-h-[100vh] flex flex-col items-center justify-center">
         <div className="img">
-          <img src="logo.svg" alt="" srcset="" />
+          <img src="logo.svg" alt=""  />
         </div>
         <div className="boxes w-[90%] p-10 flex flex-col lg:flex-row  gap-4">
           <div className="box1 p-7  bg-[#212936cc] text-[#6c727f] rounded-3xl w-full   flex flex-col gap-4">
@@ -129,7 +129,7 @@ function App() {
 
 
               </ul>
-              <button onClick={handleSwitch} className='border-2  rounded-xl p-1 px-1 border-[#4D5562]'><img src="" alt="" srcset="Horizontal_top_left_main.svg" /></button>
+              <button onClick={handleSwitch} className='border-2  rounded-xl p-1 px-1 border-[#4D5562]'><img src="Horizontal_top_left_main.svg" alt=""  /></button>
             </div>
             <hr className='border-[#4D5562]'/>
 
